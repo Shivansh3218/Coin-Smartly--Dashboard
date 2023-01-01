@@ -24,12 +24,7 @@ const News = () => {
             <a href={item.link} target="blank">
               <h1 className="news_header">{item.title}</h1>
             </a>
-            <img
-              className="image-headline"
-              src={item.image_url}
-              alt="Unavailable"
-              width={"360px"}
-            />
+         
           </div>
         );
       })}
