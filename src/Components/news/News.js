@@ -24,7 +24,7 @@ const News = () => {
             <a href={item.link} target="blank">
               <h1 className="news_header">{item.title}</h1>
             </a>
-         
+          
           </div>
         );
       })}
